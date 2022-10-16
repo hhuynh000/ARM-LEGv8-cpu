@@ -1,0 +1,83 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab_branch_pred.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:50:55 on Mar 25,2022
+# vlog -reportprogress 300 ./branch_pred.sv 
+# -- Compiling module branch_pred
+# -- Compiling module branch_pred_testbench
+# 
+# Top level modules:
+# 	branch_pred_testbench
+# End time: 22:50:55 on Mar 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work branch_pred_testbench 
+# Start time: 22:50:55 on Mar 25,2022
+# Loading sv_std.std
+# Loading work.branch_pred_testbench
+# Loading work.branch_pred
+# ** Error: Cannot open macro file: runlab_branch_pred_wave.do
+# Error in macro ./runlab_branch_pred.do line 17
+# Cannot open macro file: runlab_branch_pred_wave.do
+#     while executing
+# "do runlab_branch_pred_wave.do"
+add wave -position end  sim:/branch_pred_testbench/clk
+add wave -position end  sim:/branch_pred_testbench/reset
+add wave -position end  sim:/branch_pred_testbench/branch
+add wave -position end  sim:/branch_pred_testbench/guess
+run -all
+# ** Note: $stop    : ./branch_pred.sv(72)
+#    Time: 1250 ps  Iteration: 1  Instance: /branch_pred_testbench
+# Break in Module branch_pred_testbench at ./branch_pred.sv line 72
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Tram/OneDrive - UW/EE_469/Lab4/rundo_branch_pred_wave.do}
+do runlab_branch_pred.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:53:49 on Mar 25,2022
+# vlog -reportprogress 300 ./branch_pred.sv 
+# -- Compiling module branch_pred
+# ** Error: ./branch_pred.sv(7): Enum literal name 'sf' already exists.
+# ** Error: ./branch_pred.sv(11): (vlog-2730) Undefined variable: 'at'.
+# -- Compiling module branch_pred_testbench
+# End time: 22:53:49 on Mar 25,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab_branch_pred.do line 7
+# C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./branch_pred.sv""
+do runlab_branch_pred.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:55:06 on Mar 25,2022
+# vlog -reportprogress 300 ./branch_pred.sv 
+# -- Compiling module branch_pred
+# -- Compiling module branch_pred_testbench
+# 
+# Top level modules:
+# 	branch_pred_testbench
+# End time: 22:55:06 on Mar 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:55:12 on Mar 25,2022, Elapsed time: 0:04:17
+# Errors: 8, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work branch_pred_testbench 
+# Start time: 22:55:12 on Mar 25,2022
+# Loading sv_std.std
+# Loading work.branch_pred_testbench
+# Loading work.branch_pred
+# ** Error: Cannot open macro file: runlab_branch_pred_wave.do
+# Error in macro ./runlab_branch_pred.do line 17
+# Cannot open macro file: runlab_branch_pred_wave.do
+#     while executing
+# "do runlab_branch_pred_wave.do"
+add wave -position end  sim:/branch_pred_testbench/clk
+add wave -position end  sim:/branch_pred_testbench/reset
+add wave -position end  sim:/branch_pred_testbench/branch
+add wave -position end  sim:/branch_pred_testbench/guess
+run -all
+# ** Note: $stop    : ./branch_pred.sv(72)
+#    Time: 1250 ps  Iteration: 1  Instance: /branch_pred_testbench
+# Break in Module branch_pred_testbench at ./branch_pred.sv line 72
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Tram/OneDrive - UW/EE_469/Lab4/branch_pred_wave.do}
+# End time: 22:56:57 on Mar 25,2022, Elapsed time: 0:01:45
+# Errors: 3, Warnings: 0
